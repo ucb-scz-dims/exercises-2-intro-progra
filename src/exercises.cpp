@@ -8,7 +8,7 @@ void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
     int n_s1 = s1.size();
     for (int i=0; i<n_s1; ++i){
-        if(words[i]==' '){
+        if(s1[i]==' '){
             cout << i << endl;
         }
     }
