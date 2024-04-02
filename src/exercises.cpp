@@ -6,7 +6,6 @@ using namespace std;
 
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
-    getline(cin, s1);
     int n_s1 = s1.size();
     for (int i=0; i<n_s1; ++i){
         if(words[i]==' '){
