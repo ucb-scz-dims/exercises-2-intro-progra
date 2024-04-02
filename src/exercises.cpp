@@ -9,7 +9,7 @@ void exercise_1(string s1) {
     int n_s1 = s1.size();
     for (int i=0; i<n_s1; ++i){
         if(s1[i]==' '){
-            cout << i << endl;
+            cout << i ;
         }
     }
    cout << n_s1;
