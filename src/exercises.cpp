@@ -17,14 +17,49 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
+  string sum_words;
+    for(int i = 0; i <= s1.size(); ++i ) {
+        if (s1[i] != ' ' ) {
+            sum_words = "";
+            while (s1[i] != ' ' && i < s1.size()) {
+                sum_words += s1[i];
+                ++i;
+            }
+            cout << "[" << sum_words << "]" << endl;
+        }
+    }
 }
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+ // for (int n_visits = 0; n_visits < 10; ++n_visits) {
+      //int cake;
+      //cin >> cake;
+
+      //if (cake == 1) {
+         //   cout << "Om-nom-nom :P" << endl;
+     //   } else if (cake == 0) {
+        //    cout << "Sin pastel :(" << endl;
+       //     break;
+       // } else {
+        //    cout << "Entrada no válida. Por favor, ingrese 1 o 0." << endl;
+       // }
+    //}
 }
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+  // if (n < 0) {
+   //     cout << "El número no puede ser negativo. Inténtelo de nuevo." << endl;
+   // } else if (n > 12) {
+   //     cout << "¡Advertencia! El número es demasiado grande para calcular su factorial. Intentelo de nuevo con número menor a 12." << endl;
+   // } else {
+    //    int factorial = 1;
+    //    for (int i = 1; i <= n; ++i) {
+    //        factorial *= i;
+    //    }
+    //    cout << "El factorial de " << n << " es: " << factorial << endl;
+    //}
 }
 
 void exercise_5(int n, int k) {
