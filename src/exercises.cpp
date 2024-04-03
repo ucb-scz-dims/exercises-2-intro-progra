@@ -18,7 +18,7 @@ void exercise_1(string s1) {
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
   string sum_words;
-    for(int i = 0; i <= s1.size(); ++i ) {
+    for(int i = 0; i < s1.size(); ++i ) {
         if (s1[i] != ' ' ) {
             sum_words = "";
             while (s1[i] != ' ' && i < s1.size()) {
