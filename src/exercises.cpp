@@ -33,9 +33,9 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
   for (int n_visits = 0; n_visits < 10; ++n_visits) {
-      if (cake == 1) {
+      if (s1 == 1) {
          cout << "Om-nom-nom :P" << endl;
-     } else if (cake == 0) {
+     } else if (s1 == 0) {
           cout << "Sin pastel :(" << endl;
        break;
      } else {
