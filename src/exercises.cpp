@@ -48,9 +48,9 @@ void exercise_3(string s1) {
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
    if (n < 0) {
-     cout << "El número es negativo. Inténtelo de nuevo." << endl;
+     cout << "El numero es negativo. Intentelo de nuevo" << endl;
     } else if (n > 12) {
-      cout << "El número es muy grande. Inténtelo de nuevo." << endl;
+      cout << "El numero es muy grande. Intentelo de nuevo" << endl;
     } else {
       int factorial = 1;
      for (int i = 1; i <= n; ++i) {
