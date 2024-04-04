@@ -33,9 +33,10 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
   for (int n_visits = 0; n_visits < 10; ++n_visits) {
-      if (s1 == 1) {
+      int n_s1 = stoi(s1);
+      if (n_s1 == 1) {
          cout << "Om-nom-nom :P" << endl;
-     } else if (s1 == 0) {
+     } else if (n_s1 == 0) {
           cout << "Sin pastel :(" << endl;
        break;
      } else {
