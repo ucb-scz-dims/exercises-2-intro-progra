@@ -56,7 +56,7 @@ void exercise_4(int n) {
      for (int i = 1; i <= n; ++i) {
        factorial *= i;
     }
-      cout << "El factorial de " << n << " es: " << factorial << endl;
+      cout << factorial << endl;
     }
 }
 
