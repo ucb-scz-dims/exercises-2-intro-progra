@@ -37,10 +37,10 @@ void exercise_3(string s1) {
       if (n_s1 == 1) {
          cout << "Om-nom-nom :P" << endl;
      } else if (n_s1 == 0) {
-          cout << "Sin pastel :(" << endl;
+          cout << "No cake :(" << endl;
        break;
      } else {
-          cout << "Entrada no válida. Por favor, ingrese 1 o 0." << endl;
+          cout << "Entrada no válida. Por favor, ingrese 1 o 0" << endl;
      }
   }
 }
