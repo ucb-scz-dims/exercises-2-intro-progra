@@ -40,7 +40,7 @@ void exercise_3(string s1) {
           cout << "No cake :(" << endl;
        break;
      } else {
-          cout << "Entrada no válida. Por favor, ingrese 1 o 0" << endl;
+          cout << s1 << endl;
      }
   }
 }
