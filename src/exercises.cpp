@@ -47,17 +47,17 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
-  // if (n < 0) {
-   //     cout << "El número no puede ser negativo. Inténtelo de nuevo." << endl;
-   // } else if (n > 12) {
-   //     cout << "¡Advertencia! El número es demasiado grande para calcular su factorial. Intentelo de nuevo con número menor a 12." << endl;
-   // } else {
-    //    int factorial = 1;
-    //    for (int i = 1; i <= n; ++i) {
-    //        factorial *= i;
-    //    }
-    //    cout << "El factorial de " << n << " es: " << factorial << endl;
-    //}
+   if (n < 0) {
+     cout << "El número no puede ser negativo. Inténtelo de nuevo." << endl;
+    } else if (n > 12) {
+      cout << "¡Advertencia! El número es demasiado grande para calcular su factorial. Intentelo de nuevo con número menor a 12." << endl;
+    } else {
+      int factorial = 1;
+     for (int i = 1; i <= n; ++i) {
+       factorial *= i;
+    }
+      cout << "El factorial de " << n << " es: " << factorial << endl;
+    }
 }
 
 void exercise_5(int n, int k) {
