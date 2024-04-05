@@ -249,9 +249,11 @@ __Ejemplo__
 
 ### Ejercicio 11
 Escriba un programa que calcule los primeros 10 términos de la secuencia Un tal que:
+
 $$
 U_0 = 1; U_{n+1} = \frac{U_n}{n + 1}
 $$
+
 __Salida__
 ```
 U0 = 1
@@ -268,9 +270,11 @@ U10 = 2.75573e-07
 ```
 ### Ejercicio 12
 Modifique el programa de arriba para que calcule simultáneamente la secuencia Un y la serie Vn, donde
+
 $$
 V_n = \sum_{i=0}^n{U_i}
 $$
+
 Verifique que Vm converga a e = exp(1) = 2.71828
 __Salida__
 ```
