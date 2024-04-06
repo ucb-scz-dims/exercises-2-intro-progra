@@ -41,7 +41,7 @@ void exercise_2(string s1) {
     // Si hay una palabra al final de la cadena, imprímela
     if (!word.empty()) {
         cout << "[" << word << "]" << endl;
-    }
+    } 
 }
 
 
