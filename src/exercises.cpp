@@ -91,12 +91,10 @@ void exercise_9(string s) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  while (b != 0) {
-        int result =  a % b;
-        b = num1 % num2;
-        num1 = temp;
-  }
-    cout << result;
+  //while (b != 0) {
+  //      result =
+  //}
+  //  cout << result;
   return 0;
 }
 
