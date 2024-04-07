@@ -32,17 +32,17 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  for (int n_visits = 0; n_visits < 10; ++n_visits) {
-      int n_s1 = stoi(s1);
-      if (n_s1 == 1) {
-         cout << "Om-nom-nom :P" << endl;
-     } else if (n_s1 == 0) {
-          cout << "No cake :(" << endl;
-       break;
-     } else {
-          cout << s1 << endl;
-     }
-  }
+  //for (int n_visits = 0; n_visits < 10; ++n_visits) {
+  //    int n_s1 = stoi(s1);
+  //    if (n_s1 == 1) {
+  //       cout << "Om-nom-nom :P" << endl;
+  //   } else if (n_s1 == 0) {
+  //        cout << "No cake :(" << endl;
+  //     break;
+  //   } else {
+  //        cout << s1 << endl;
+  //   }
+  //}
 }
 
 void exercise_4(int n) {
@@ -66,8 +66,9 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
+  int sum = 0;
   while (n != 0) {
-        sum += n;  
+      sum += n;  
 } cout << sum;
 }
 
@@ -76,6 +77,11 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
+  //for (int i = 0; i < str.size() ; ++i){
+      //  if(str[i] != ' ' ){
+       //     cout << str[i];
+      //  }
+      //  } 
   // TODO: YOUR CODE HERE
 }
 
