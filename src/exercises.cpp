@@ -69,6 +69,7 @@ int exercise_6(int n) {
   while (n != 0) {
         sum += n;  
 } cout << sum;
+}
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
