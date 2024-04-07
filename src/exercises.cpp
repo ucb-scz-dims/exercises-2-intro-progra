@@ -95,7 +95,7 @@ int exercise_10(int a, int b) {
         int result =  a % b;
         b = num1 % num2;
         num1 = temp;
-    }
+  }
     cout << result;
   return 0;
 }
