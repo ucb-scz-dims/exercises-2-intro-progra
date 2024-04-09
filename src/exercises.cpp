@@ -31,6 +31,8 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
+<<<<<<< HEAD
+  
     string s1_char = "";
     for (int i = 0; i < s1.size(); ++i) {
         if (s1[i] != ' '){
@@ -46,6 +48,24 @@ void exercise_3(string s1) {
                 break;
             }
       }
+  //}
+=======
+    string s1_char = "";
+    for (int i = 0; i < s1.size(); ++i) {
+        if (s1[i] != ' '){
+            s1_char += s1[i]; 
+        } 
+  } 
+  for (int i = 0; i <= s1_char.size() ; ++i){
+    cout << s1_char << endl;
+            if (s1_char[i] = '1'){
+                cout << "Om-nom-nom :P" << endl;
+            } else if (s1_char[i] = '0'){
+                cout << "No cake :(\n" << endl;
+                break;
+            }
+      }
+>>>>>>> 6796d49246310f3d14f548503fe3b493910c5a6b
 }
 
 void exercise_4(int n) {
