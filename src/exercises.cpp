@@ -37,8 +37,7 @@ void exercise_3(string s1) {
             s1_char += s1[i]; 
         } 
   } 
-  for (int i = 0; i <= s1_char.size() ; ++i){
-    cout << s1_char << endl;
+  for (int i = 0; i <= 9 ; ++i){
             if (s1_char[i] == '1'){
                 cout << "Om-nom-nom :P" << endl;
             } else if (s1_char[i] == '0'){
