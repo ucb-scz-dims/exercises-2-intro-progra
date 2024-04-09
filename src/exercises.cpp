@@ -31,18 +31,21 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
-  //for (int n_visits = 0; n_visits < 10; ++n_visits) {
-  //    int n_s1 = stoi(s1);
-  //    if (n_s1 == 1) {
-  //       cout << "Om-nom-nom :P" << endl;
-  //   } else if (n_s1 == 0) {
-  //        cout << "No cake :(" << endl;
-  //     break;
-  //   } else {
-  //        cout << s1 << endl;
-  //   }
-  //}
+    string s1_char = "";
+    for (int i = 0; i < s1.size(); ++i) {
+        if (s1[i] != ' '){
+            s1_char += s1[i]; 
+        } 
+  } 
+  for (int i = 0; i <= s1_char.size() ; ++i){
+    cout << s1_char << endl;
+            if (s1_char[i] = '1'){
+                cout << "Om-nom-nom :P" << endl;
+            } else if (s1_char[i] = '0'){
+                cout << "No cake :(\n" << endl;
+                break;
+            }
+      }
 }
 
 void exercise_4(int n) {
