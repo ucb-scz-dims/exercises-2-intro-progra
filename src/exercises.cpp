@@ -58,9 +58,9 @@ void exercise_3(string s1) {
   } 
   for (int i = 0; i <= s1_char.size() ; ++i){
     cout << s1_char << endl;
-            if (s1_char[i] = '1'){
+            if (s1_char[i] == '1'){
                 cout << "Om-nom-nom :P" << endl;
-            } else if (s1_char[i] = '0'){
+            } else if (s1_char[i] == '0'){
                 cout << "No cake :(\n" << endl;
                 break;
             }
