@@ -95,11 +95,21 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  //for (int i = 0; i < str.size() ; ++i){
-      //  if(str[i] != ' ' ){
-       //     cout << str[i];
-      //  }
-      //  } 
+  string s_char = "";
+    for(int i = 0; i < s.size(); ++i){
+        if(s[i] != ' '){
+            s_char += s[i];
+        }
+    } 
+    for (int i = 0 ; i < s_char.size(); ++i){
+        if(s_char[i] == s_char[s_char.size() - 1] ){
+            cout << "YES" << endl;
+            break;
+        } else {
+            cout << "NO" << endl;
+            break;
+        }
+    }
   // TODO: YOUR CODE HERE
 }
 
