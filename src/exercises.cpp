@@ -64,19 +64,19 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  int i;
-    if ( n != 0 || n < 7 && k < 99 || k != 0){
-        for(int o = 1; o < n; ++o){
-            string space;
-            space += " ";
-            cout << " " << space << " ";
-            }
-        for ( int i = 1; i <= k; ++i){
-            cout << " " << i << " ";
-        }
-    }
+  //int i;
+  //  if ( n != 0 || n < 7 && k < 99 || k != 0){
+  //      for(int o = 1; o < n; ++o){
+  //          string space;
+  //          space += " ";
+  //          cout << " " << space << " ";
+  //          }
+  //      for ( int i = 1; i <= k; ++i){
+  //          cout << " " << i << " ";
+  //      }
+  //  }
     
-    return i;
+    //return i;
 }
 
 int exercise_6(int n) {
