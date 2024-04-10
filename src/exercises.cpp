@@ -96,9 +96,9 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   string s_char = "";
-  if( s_char == ""){
-        cout << "YES" << endl;
-    }
+  //if( s_char == ""){
+   //     cout << "YES" << endl;
+   // }
     for(int i = 0; i < s.size(); ++i){
         if(s[i] != ' '){
             s_char += s[i];
