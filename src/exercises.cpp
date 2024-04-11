@@ -109,7 +109,8 @@ void exercise_8(string s) {
             cout << "NO" << endl;
             break;
         }
-    for (int i = 0 ; i < s_char.size(); ++i){if( s_char == ""){
+    for (int i = 0 ; i < s_char.size(); ++i){
+      if( s_char == ""){
         cout << "YES" << endl;
          break;
     }
