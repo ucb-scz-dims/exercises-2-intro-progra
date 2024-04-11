@@ -118,6 +118,23 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+      int n = -2;
+    for(int i = 0; i < s.size(); ++i){
+        char c = s[i];
+        switch (c)
+        {
+        case 'f':
+            n += 1;
+            break;
+        default:
+            break;
+        }
+    } 
+    for (int i = 0; i < s.size(); ++i){
+        if(s[i] == s[i +1]){
+            n += 3;
+        }
+    } cout << n << endl;
 }
 
 int exercise_10(int a, int b) {
