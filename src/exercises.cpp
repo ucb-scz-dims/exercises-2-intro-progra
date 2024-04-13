@@ -157,12 +157,21 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
 }
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  return "";
+  int copy;
+  int inverse = 0;
+  while( copy != 0){
+    inverse = inverse * 10 + copy % 10;
+    copy /= 10;
+  }
+  if(n == inverse){
+    return "Es palindrome";
+  } else {
+    return "No es palindrome";
+  }
 }
 
 void exercise_15(int decimal) {
