@@ -143,10 +143,8 @@ int exercise_10(int a, int b) {
         int result = b;
         b = a % b;
         a = result;
-
     }
-    cout << a << endl;
-    return 0;
+    return a;
 }
 
 void exercise_11() {
