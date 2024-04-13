@@ -63,20 +63,41 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
-  //int i;
-  //  if ( n != 0 || n < 7 && k < 99 || k != 0){
-  //      for(int o = 1; o < n; ++o){
-  //          string space;
-  //          space += " ";
-  //          cout << " " << space << " ";
-  //          }
-  //      for ( int i = 1; i <= k; ++i){
-  //          cout << " " << i << " ";
-  //      }
-  //  }
-    
-    //return i;
+  int day_one = 1;
+
+ for (int i = 1; i <= 6; ++i) {
+     if (i == 1) {
+   for (int i = 1; i < n; ++i) {
+   cout << "   ";
+        }
+   for (int o = n; o <= 7; ++o) {
+      if (day_one < 10) {
+          cout << " ";
+         }
+        cout << day_one++;
+          cout << " ";
+        if (day_one > k) {
+            break;
+          }
+         }
+        cout << endl;
+        } else {
+   for (int i = 1; i <= 7; ++i) {
+         if (day_one < 10) {
+         cout << " ";
+       }
+          cout << day_one++;
+          cout << " ";
+           if (day_one > k) {
+           break;
+           }
+         }
+       cout << endl;
+        }
+        if (day_one > k) {
+            break;
+        }
+    }
 }
 
 int exercise_6(int n) {
