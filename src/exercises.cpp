@@ -171,6 +171,17 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
+  int i;
+  if(divident < divider){
+    i = 0;
+    cout << i << " " << divident << endl;
+  }
+  if(divider > 0 && divident >= divider){
+    for(i = 0; divident != 0 && divident != 1; ++i){
+    divident -= divider;
+  }
+    cout << i << " " << divident << endl;
+  }
 }
 
 void exercise_17(int n) {
