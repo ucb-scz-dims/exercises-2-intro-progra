@@ -139,11 +139,11 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  while( b != 0){
-        int result = b;
-        b = a % b;
-        a = result;
-    return a;
+  //while( b != 0){
+  //      int result = b;
+  //      b = a % b;
+  //      a = result;
+    return 0;
 }
 
 void exercise_11() {
@@ -156,6 +156,7 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
+  return 0;
 }
 
 string exercise_14(int n) {
