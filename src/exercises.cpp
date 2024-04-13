@@ -139,10 +139,13 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  //while( b != 0){
-  //      int result = b;
-  //      b = a % b;
-  //      a = result;
+  while( b != 0){
+        int result = b;
+        b = a % b;
+        a = result;
+
+    }
+    cout << a << endl;
     return 0;
 }
 
