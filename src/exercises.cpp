@@ -125,7 +125,7 @@ void exercise_7(int n) {
     }
   }
 
-    cout << suma << endl;
+    cout << sum << endl;
 }
 
 void exercise_8(string s) {
