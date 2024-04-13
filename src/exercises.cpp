@@ -160,15 +160,15 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  int copy;
-  int inverse = 0;
-  while( copy != 0){
-    inverse = inverse * 10 + copy % 10;
-    copy /= 10;
+    string n2 = to_string(n);
+  string inverse;
+
+  for(int i = 1; i <= n2.size() ; ++i){
+    inverse += n2[n2.size()-i];
   }
-  if(n == inverse){
+  if( inverse == n2){
     return "Es palindrome";
-  } else {
+  } else{
     return "No es palindrome";
   }
 }
