@@ -113,6 +113,19 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
+  double sum = 0;
+  for (int i = 1; i <= n; i++) {
+    switch (i % 2) {
+   case 0:
+    sum -= 1.0 / i;
+     break;
+    case 1:
+    sum += 1.0 / i;
+    break;
+    }
+  }
+
+    cout << suma << endl;
 }
 
 void exercise_8(string s) {
