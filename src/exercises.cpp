@@ -183,7 +183,7 @@ long exercise_13(int n, int k) {
         x += pow_result;
     }
   return x;
- }
+ 
 }
 
 string exercise_14(int n) {
