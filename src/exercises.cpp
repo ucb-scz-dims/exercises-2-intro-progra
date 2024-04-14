@@ -181,8 +181,6 @@ void exercise_12() {
   double u_n = u_0;
   double v_n = u_0;
 
-  cout << "U0 = " << u_0 <<  " V0 = " << v_n << endl;
-
   for (int i = 1; i <= 10; ++i) {
     u_n /= i;
     v_n += u_n; 
