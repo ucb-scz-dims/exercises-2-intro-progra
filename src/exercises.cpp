@@ -212,13 +212,16 @@ string exercise_14(int n) {
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
   string bin = ""; 
-  while (decimal > 0) {
+  while (decimal >= 0) {
+    if( decimal == 0){
+    bin = to_string(decimal);
+    break;
+  }
   int r = decimal % 2; 
   bin = to_string(r) + bin; 
 
   decimal /= 2; 
     }
-
     cout << bin << endl;
 }
 
