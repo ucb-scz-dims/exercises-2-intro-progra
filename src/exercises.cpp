@@ -180,7 +180,7 @@ long exercise_13(int n, int k) {
         for (int j = 0; j < k; ++j) {
             result *= i;
         }
-        x += pow_result;
+        x += result;
     }
   return x;
  
