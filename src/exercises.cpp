@@ -66,13 +66,13 @@ void exercise_5(int n, int k) {
  for (int i = 1; i < n; ++i) {
   cout << "   ";
  }for(int i = 1; i<= k ; ++i){
-  if(j<10){
+  if(i < 10){
     cout << " ";
   }
   cout << i;
 
   int new_line = ( i + n -1) % 7;
-  if(salto == 0){
+  if(new_line == 0){
     cout << endl;
   } else if( i == k){
     cout << " " << endl;
