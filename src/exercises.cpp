@@ -262,7 +262,7 @@ void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
   for (int i = debut; i <= fin; i++) {
     if ( debut == 1 && fin == 1){
-        cout << debut << " -> " << fin << endl;
+        cout << debut << "->" << fin << endl;
         break;
     }
     if ( debut > fin) {
@@ -284,6 +284,6 @@ void exercise_18_19(int debut, int fin) {
     }
     count++;
     }
-    cout << i << " -> " << count << endl;
+    cout << i << "->" << count << endl;
   }
 }
