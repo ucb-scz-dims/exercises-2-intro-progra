@@ -213,10 +213,6 @@ void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
   string bin = ""; 
   while (decimal >= 0) {
-    if( decimal == 0){
-    bin = to_string(decimal);
-    break;
-  }
   int r = decimal % 2; 
   bin = to_string(r) + bin; 
 
