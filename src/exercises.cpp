@@ -219,7 +219,7 @@ void exercise_15(int decimal) {
   decimal /= 2; 
     }
 
-    return bin;
+    cout << bin << endl;
 }
 
 void exercise_16(int divident, int divider) {
