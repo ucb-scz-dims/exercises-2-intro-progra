@@ -260,4 +260,30 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  for (int i = debut; i <= fin; i++) {
+    if ( debut == 1 && fin == 1){
+        cout << debut << " -> " << fin << endl;
+        break;
+    }
+    if ( debut > fin) {
+    cout << "El numero de fin no debe de ser menor al inicial" << endl;
+    break;
+  } if (debut <= 0) {
+    cout << "El numero debe de ser positivo y mayor a zero" << endl;
+    break;
+  }
+    int count = 0;
+    int x = i; // Variable temporal para almacenar el valor de n
+    while (x > 0) {
+    if (x % 3 == 0) {
+    x += 4;
+    } else if (x % 4 == 0) {
+    x /= 2;
+    } else {
+   x--;
+    }
+    count++;
+    }
+    cout << i << " -> " << count << endl;
+  }
 }
