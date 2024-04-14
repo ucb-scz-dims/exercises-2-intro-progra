@@ -230,6 +230,22 @@ void exercise_16(int divident, int divider) {
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
+  int count = 0;
+  int num = 2;
+  while (count < n) {
+    bool prim = true;
+    for (int divisor = 2; divisor * divisor <= num; divisor++) {
+    if (num % divisor == 0) {
+    prim = false;
+     break;
+    }
+    }
+    if (prim) {
+     cout << num << " ";
+   count++;
+    }
+   num++
+  }
 }
 
 void exercise_18_19(int debut, int fin) {
