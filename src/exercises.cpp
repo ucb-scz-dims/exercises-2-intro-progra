@@ -244,7 +244,7 @@ void exercise_17(int n) {
      cout << num << " ";
    count++;
     }
-   num++
+   num++;
   }
 }
 
