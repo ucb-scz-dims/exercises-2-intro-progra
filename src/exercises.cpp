@@ -211,6 +211,15 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
+  string bin = ""; 
+  while (decimal > 0) {
+  int r = decimal % 2; 
+  bin = to_string(r) + bin; 
+
+  decimal /= 2; 
+    }
+
+    return bin;
 }
 
 void exercise_16(int divident, int divider) {
