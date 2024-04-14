@@ -174,7 +174,16 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
+  int x = 0;
+  for (int i = 1; i <= n; ++i) {
+        int result = 1;
+        for (int j = 0; j < k; ++j) {
+            result *= i;
+        }
+        x += pow_result;
+    }
+  return x;
+ }
 }
 
 string exercise_14(int n) {
